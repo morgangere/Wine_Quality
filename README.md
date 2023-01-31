@@ -1,5 +1,13 @@
 # Wine_Quality
 Group project by: Morgan Gere, Dan Burke, Natali Newman, and Nick Tinsley
+### Required Tools:
+
+R Studio
+
+Jupyter Notebook
+
+Excel
+
 ### Overview
 Exploration of the wine quality data set found on the University of Irvine's Machine Learning Repository.  THe goal is to predict the quality of wine and identify best varaiables for high quality wine.  This project was mostly done in R with two models being done in python.  The data itself contains multiple columns off empirical data such as pH, acidity, residual sugar levels, alcohol % and more along with the rating giving at this winery.
 ### EDA

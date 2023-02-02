@@ -9,7 +9,7 @@ Jupyter Notebook
 Excel
 
 ### Overview
-Exploration of the wine quality data set found on the University of Irvine's Machine Learning Repository.  THe goal is to predict the quality of wine and identify best varaiables for high quality wine.  This project was mostly done in R with two models being done in python.  The data itself contains multiple columns off empirical data such as pH, acidity, residual sugar levels, alcohol % and more along with the rating giving at this winery.
+Exploration of the wine quality data set found on the University of Irvine's Machine Learning Repository.  The goal is to predict the quality of wine and identify best variables for high quality wine.  This project was mostly done in R with two models being done in python.  The data itself contains multiple columns off empirical data such as pH, acidity, residual sugar levels, alcohol % and more along with the rating giving at this winery.
 ### EDA
 Some Distributions to have a better understanding of the variables.
 
@@ -19,7 +19,7 @@ Some Distributions to have a better understanding of the variables.
 
 ![image](https://user-images.githubusercontent.com/118774600/213280871-bc5828f3-d934-4a4d-8021-3485e0fce011.png)
 
-Correlation plot to understand how the variables posibly relate to one another.
+Correlation plot to understand how the variables possibly relate to one another.
 R
 
 ![image](https://user-images.githubusercontent.com/118774600/213281054-35324192-f8fa-4e1d-8c21-8454717fe498.png)
@@ -29,7 +29,7 @@ Python
 ![image](https://user-images.githubusercontent.com/118774600/213281815-685a0c91-23b8-4798-82ab-f1ff1fd4e69a.png)
 
 ### Decision Tree
-The data was split on a 70/30 train/test using quality as a factor for the predictor. The accuracy was the lowest as to be expected, 51.64% the tree can be seen below indicating the most important variables to be alcohol amount, volatility, residual sugars and free sulur dioxide.
+The data was split on a 70/30 train/test using quality as a factor for the predictor. The accuracy was the lowest as to be expected, 51.64% the tree can be seen below indicating the most important variables to be alcohol amount, volatility, residual sugars and free sulfur dioxide.
 
 ![image](https://user-images.githubusercontent.com/118774600/213282894-0b25afad-9b49-4e38-8b64-cca3af243f4a.png)
 
@@ -215,8 +215,8 @@ The Variable Importance's when the quality was discretized is shown below indica
 
 ### K-means Clustering
 
-At first in an attempt to gain most information possible both elbow and shoulder methods were implimented to find the optimum number of clusters.
-5 clusters was selected as a starting point.
+At first to attempt gain most information possible both elbow and shoulder methods were implemented  to find the optimum number of clusters.
+5 clusters were selected as a starting point.
 
 ![image](https://user-images.githubusercontent.com/118774600/213292298-2344a0d6-9928-45a7-8f40-c16f9f369b0d.png)
 
@@ -281,7 +281,7 @@ The Red and White data were combined into a single data set and the Apriori algo
 
 Next step was to Discretize the quality attribute from numbers to quality indicators.  A quality rating of 0-4 was considered low quality, 5-7 was mid and anything above 8 was considered a high-quality wine.
 
-When Apriori is applied to the discretized data we find that a Mid qualilty wine can be assotiated with a Sulfer Dioxide count greater than 220 and Density measured obobe .995.  Where as a High quality wine is assotiated with a Sulfer Dioxide range around 48.5, and a Alcholol level around 13.7%
+When Apriori is applied to the discretized data we find that a Mid quality wine can be associated with a Sulfur Dioxide count greater than 220 and Density measured above .995.  Whereas a High quality wine is associated with a Sulfur Dioxide range around 48.5, and a Alcohol level around 13.7%
 
  Mid Quality
 
